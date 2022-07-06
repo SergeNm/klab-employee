@@ -3,13 +3,13 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav className="h-72 w-full bg-gray-600">
+    <nav className="h-8 w-full bg-gray-600 text-white">
       <ul>
-        <Link href="/" className="text-blue-700">
-          Home
+        <Link href="/" >
+         <a className="p-2"> Home</a>
         </Link>
-        <Link href="/about" className="text-blue-700">
-          About
+        <Link href="/about" >
+         <a className="p-2">About</a> 
         </Link>
       </ul>
     </nav>
